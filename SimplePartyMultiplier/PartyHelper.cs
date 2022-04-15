@@ -34,7 +34,7 @@ namespace SimplePartyMultiplier
             return stringId.ToLower().Contains("outlaw");
         }
 
-        public static bool isKingdomOf(Kingdom kingdom, Kingdoms kingdomOf)
+        public static bool IsKingdomOf(Kingdom kingdom, Kingdoms kingdomOf)
         {
             var result = false;
             switch (kingdomOf)
@@ -97,7 +97,7 @@ namespace SimplePartyMultiplier
             return result;
         }
         
-        public static float getFloatFor(Kingdoms kingdom, Settings settings)
+        public static float GetFloatFor(Kingdoms kingdom, Settings settings)
         {
             var result = 1f;
             switch (kingdom)
